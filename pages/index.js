@@ -33,6 +33,8 @@ export default function Home() {
           <p>
             <button type="submit">Send</button>
           </p>
+          <div data-netlify-recaptcha="true"></div>
+          <input type="hidden" name="form-name" value="contact_form" />
         </form>
       </main>
 

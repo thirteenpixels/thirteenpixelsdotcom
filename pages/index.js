@@ -23,7 +23,8 @@ export default function Home() {
         <p className="description">
           If you&rsquo;d like to get in touch for some other reason you can use this simple form (no spam from me if I don&rsquo;t get any from you, deal? <em>Deal</em>.)
         </p>          
-        <form name="contact" data-netlify-recaptcha="true" netlify>
+        <form name="contact" netlify>
+        <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>Name <input type="text" name="name" /></label>
           </p>
@@ -32,9 +33,7 @@ export default function Home() {
           </p>
           <p>
             <button type="submit">Send</button>
-          </p>
-          <div data-netlify-recaptcha="true"></div>
-          <input type="hidden" name="form-name" value="contact_form" />
+          </p>          
         </form>
       </main>
 

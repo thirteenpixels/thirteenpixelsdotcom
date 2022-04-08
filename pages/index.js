@@ -15,7 +15,7 @@ export default function Home() {
           You probably didn&rsquo;t mean to land here but just in case you did I will try to be hospitable.
         </p>
         <p className="description">
-          My name is <a href="https://keybase.io/thirteenpixels">Bill</a>. I work <a href="https://tsyklonstudio.com">here</a>. When I&rsquo;m not making things there I&rsquo;m probably doing something that you can view on <a href="https://www.strava.com/athletes/53379311">here</a>.
+          My name is Bill. I work <a href="https://tsyklonstudio.com">here</a>. When I&rsquo;m not making things there I&rsquo;m probably doing something that you can view on <a href="https://www.strava.com/athletes/53379311">here</a>.
         </p>
         <p className="description">
           If you&rsquo;d like to get in touch with me for something work related you can find me <a href="https://www.linkedin.com/in/thirteenpixels/">here</a>.

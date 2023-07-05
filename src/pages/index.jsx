@@ -256,12 +256,12 @@ export default function Home({ articles }) {
           </p>
           <div className="mt-6 flex gap-2">
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/thirteenpixels"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/thirteenpixels"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />

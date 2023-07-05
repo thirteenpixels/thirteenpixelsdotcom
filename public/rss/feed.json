@@ -1,0 +1,23 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Spencer Sharp",
+    "feed_url": "undefined/rss/feed.json",
+    "description": "Your blog description",
+    "icon": "undefined/favicon.ico",
+    "author": {
+        "name": "Spencer Sharp"
+    },
+    "items": [
+        {
+            "id": "undefined/articles/new-beginnings",
+            "content_html": "<p>It’s been over ten years since I attempted anything resembling a personal website. In my defense, I’ve kept busy launching a few successful businesses.</p>\n<p>Since you’re here, I’ll do my best to keep it interesting. No promises.</p>",
+            "url": "undefined/articles/new-beginnings",
+            "title": "Time to write again",
+            "summary": "Who knows where we'll end up but they say the journey is the point.",
+            "date_modified": "2023-07-05T00:00:00.000Z",
+            "author": {
+                "name": "Spencer Sharp"
+            }
+        }
+    ]
+}

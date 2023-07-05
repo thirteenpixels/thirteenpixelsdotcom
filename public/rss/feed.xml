@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Spencer Sharp</title>
+        <link>undefined</link>
+        <description>Your blog description</description>
+        <lastBuildDate>Wed, 05 Jul 2023 17:47:02 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Spencer Sharp</title>
+            <url>undefined/favicon.ico</url>
+            <link>undefined</link>
+        </image>
+        <copyright>All rights reserved 2023</copyright>
+        <item>
+            <title><![CDATA[Time to write again]]></title>
+            <link>undefined/articles/new-beginnings</link>
+            <guid>undefined/articles/new-beginnings</guid>
+            <pubDate>Wed, 05 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Who knows where we'll end up but they say the journey is the point.]]></description>
+            <content:encoded><![CDATA[<p>It’s been over ten years since I attempted anything resembling a personal website. In my defense, I’ve kept busy launching a few successful businesses.</p>
+<p>Since you’re here, I’ll do my best to keep it interesting. No promises.</p>]]></content:encoded>
+            <author>spencer@planetaria.tech (Spencer Sharp)</author>
+        </item>
+    </channel>
+</rss>

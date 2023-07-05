@@ -1,4 +1,6 @@
 import { Head, Html, Main, NextScript } from 'next/document'
+import Script from "next/script";
+const GA_MEASUREMENT_ID = "G-SFFPDZMGT1";
 
 const modeScript = `
   let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
@@ -39,16 +41,28 @@ export default function Document() {
   return (
     <Html className="h-full antialiased" lang="en">
       <Head>
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${GA_MEASUREMENT_ID}');
+        `}
+      </Script>        
         <script dangerouslySetInnerHTML={{ __html: modeScript }} />
         <link
           rel="alternate"
           type="application/rss+xml"
-          href={`${process.env.NEXT_PUBLIC_SITE_URL}/rss/feed.xml`}
+          href="https://thirteenpixels.com/rss/feed.xml"
         />
         <link
           rel="alternate"
           type="application/feed+json"
-          href={`${process.env.NEXT_PUBLIC_SITE_URL}/rss/feed.json`}
+          href="https://thirteenpixels.com/rss/feed.json"
         />
       </Head>
       <body className="flex h-full flex-col bg-zinc-50 dark:bg-black">

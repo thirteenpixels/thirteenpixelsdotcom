@@ -252,7 +252,7 @@ export default function Home({ articles }) {
             Software Engineer, Email Marketing Expert and Entrepeneur
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            My name is Bill Evans, I'm a software developer and online marketing expert with an entrepeneurial drive. I&rsquo;ve been helping brands luanch and run global marketing campaigns for over two decades.
+            My name is Bill Evans, I'm a software developer and online marketing expert with an entrepeneurial drive. I&rsquo;ve been helping brands launch and run global marketing campaigns for over two decades.
           </p>
           <div className="mt-6 flex gap-2">
             <SocialLink
@@ -269,18 +269,6 @@ export default function Home({ articles }) {
         </div>
       </Container>
       <Photos />
-      <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col gap-16">
-            {articles.map((article) => (
-              <Article key={article.slug} article={article} />
-            ))}
-          </div>
-          <div className="space-y-10 lg:pl-16 xl:pl-24">            
-            <Resume />
-          </div>
-        </div>
-      </Container>
     </>
   )
 }

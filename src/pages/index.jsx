@@ -133,13 +133,16 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
+      company: 'Fairwinds',
+      title: 'Marketing Automation Specialist',
+      start: '2023',
+      end: 'Present'
+    },
+    {
       company: 'Tsyklon',
       title: 'Owner / Programmer',
       start: '2016',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
+      end: '2023',
     },
     {
       company: 'SQUAREFACTOR',
@@ -269,6 +272,13 @@ export default function Home({ articles }) {
         </div>
       </Container>
       <Photos />
+      <Container className="mt-24 md:mt-28">
+        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
+          <div className="flex flex-col gap-16">
+            <Resume />
+          </div>          
+        </div>
+      </Container>
     </>
   )
 }

@@ -133,10 +133,16 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Fairwinds',
+      company: 'Blue State',
+      title: 'Deputy Director, Martech',
+      start: '2024',
+      end: 'Present'
+    },
+    {
+      company: 'Fairwinds Credit Union',
       title: 'Marketing Automation Specialist',
       start: '2023',
-      end: 'Present'
+      end: '2024'
     },
     {
       company: 'Tsyklon',

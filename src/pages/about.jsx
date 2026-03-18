@@ -66,7 +66,7 @@ export default function About() {
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>I started my career wanting to make video games. I still love playing games and always have an idea for a new game rattling around in my head. When I first started programming, the only way to make games was by learning C and Assembly and diving in. I made my best attempts, but it became clear early on that this wouldn&rsquo;t be my&nbsp;path.</p>
               <p>I did enjoy programming, but thankfully, the internet gave me an outlet for that passion. I&rsquo;ve been very fortunate in my career and worked with amazing people on amazing projects. I even got to make a few&nbsp;games.</p>
-              <p>Today I&rsquo;m one of the founders of <a href="https://tsyklonstudio.com" target="_blank" class="underline">Tsyklon</a>. We build wonderful emails for companies that I&rsquo;m sure you&rsquo;ve heard of, but you can read more about that on our&nbsp;<a href="https://tsyklonstudio.com" target="_blank" class="underline">website</a>.</p>
+              <p>Today I&rsquo;m a Deputy Director of MarTech at <a href="https://tsyklonstudio.com" target="_blank" class="underline">Blue State</a> a purpose-driven agency. I'm proud to work with a team of passionate, talented individuals for some of the world&rsquo;s finest non-profits and progressive political candidates.</p>
               <p>Next year I will have been on this journey for a quarter of a century. If I&rsquo;m lucky, I have another twenty-five ahead of me. In the meantime, I will do my best to enjoy&nbsp;it.</p>
             </div>
           </div>
